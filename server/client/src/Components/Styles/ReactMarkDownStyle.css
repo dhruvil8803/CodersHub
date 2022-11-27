@@ -1,0 +1,84 @@
+.ReactMarkDownStyle{
+    background-color: #282a36;
+    padding: 1rem;
+}
+.ReactMarkDownStyle h1{
+  font-size: 3rem;
+  color: white;
+  font-weight: 500;
+}
+.ReactMarkDownStyle h2{
+    font-size: 2.8rem;
+    color: white;
+    font-weight: 500;
+  }
+  .ReactMarkDownStyle h3{
+    font-size: 2.6rem;
+    color: white;
+    font-weight: 500;
+  }
+  .ReactMarkDownStyle h4{
+    font-size: 2.4rem;
+    color: white;
+    font-weight: 500;
+  }
+  .ReactMarkDownStyle h5{
+    font-size: 2.2rem;
+    color: white;
+    font-weight: 500;
+  }
+  .ReactMarkDownStyle h6{
+    font-size: 2rem;
+    color: white;
+    font-weight: 500;
+  }
+  .ReactMarkDownStyle p{
+    overflow-wrap: break-word;
+    font-size: 1.6rem;
+    color: white;
+    font-weight: 400;
+  }
+  .ReactMarkDownStyle strong{
+    font-size: 1.6rem;
+    color: white;
+    font-weight: 600;
+  }
+  .ReactMarkDownStyle em{
+    font-size: 1.6rem;
+    color: white;
+    font-style: italic;
+  }
+  .ReactMarkDownStyle blockquote{
+    background-color: #1d1e26;
+    border-left: 5px solid #ff79c6;
+    padding: 1rem;
+    margin: 2rem 0;
+  }
+  .ReactMarkDownStyle code{
+    font-size: 1.4rem;
+    background-color: #1d1e26;
+    display: block;
+    margin: 2rem 0;
+    border-radius: 5px;
+    padding: 1rem;
+    color: #bd93f9;
+    overflow: auto;
+  }
+  .ReactMarkDownStyle ul, ol{
+    margin: 1rem;
+    display: block;
+    list-style-type: disc;
+  }
+  .ReactMarkDownStyle li{
+    font-size: 1.6rem;
+    background-color: none;
+    color: white;
+  }
+  .ReactMarkDownStyle a{
+    font-size: 1.6rem;
+    color: #50fa7b;
+  }
+  .ReactMarkDownStyle img{
+    max-width: 100%;
+    margin-top: 1rem 0 ;
+  }

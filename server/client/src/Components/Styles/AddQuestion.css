@@ -1,0 +1,109 @@
+.AddQuestion{
+    display: flex;
+    width: 100vw;
+}
+.AddQuestionDetail{
+    border-left: 1px solid white;
+    width: 80vw;
+    padding: 2rem;
+    color: white;
+}
+.AddQuestionTitle, .AddQuestionMarkDown, .AddQuestionReview, .AddQuestionTag{
+    width: 100%;
+    background-color: #1d1e26;
+    padding: 2rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+.AddQuestionTitle h1, .AddQuestionMarkDown h1, .AddQuestionReview h1, .AddQuestionTag h1{
+    font-size: 3rem;
+    color: #ff79c6;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+.AddQuestionTitle p, .AddQuestionMarkDown p, .AddQuestionReview p, .AddQuestionTag p{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.AddQuestionTitle input, .AddQuestionTag input{
+    background-color: #282a36;
+    height: 4rem;
+    padding: 0.5rem;
+    color: white;
+    outline: none;
+    width: 100%;
+    font-size: 2rem;
+    border: none;
+}
+.AddQuestionMarkDown textarea{
+    background-color: #282a36;
+    padding: 0.5rem;
+    color: white;
+    outline: none;
+    width: 100%;
+    font-size: 1.6rem;
+    border: none;
+}
+
+.AddQuestionDetail button{
+    font-size: 1.2rem;
+    padding: 0.7rem 3rem;
+    background-color: #50fa7b;
+    outline: none;
+    border: none;
+    border-radius: 0.7rem;
+    font-weight: bold;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    margin-top: 1rem;
+}
+.AddQuestionDetail button:hover{
+    background-color:#36a552;
+    color: white;
+    cursor:pointer;
+}
+
+.AddQuestionTagSelector{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    justify-content: space-evenly;
+}
+.AddQuestionTagSelector .AddQuestionTagChoose{
+    border: 1px solid white;
+    background-color: #282a36;
+    color: white;
+    font-size: 1.4rem;
+    padding: 1rem;
+    margin: 1rem 0;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.AddQuestionTagChoose i:hover{
+    cursor: pointer;
+}
+
+.AddQuestionTag ul{
+    list-style-type: none;
+    color: white;
+    display: flex;
+    margin-bottom: 1rem;
+    width: 100%;
+    height: 10%;
+}
+.AddQuestionTag ul li{
+   font-size: 1.5rem;
+   margin-right: 1rem;
+   background-color:#282a36;
+   padding: 0.5rem 1.5rem;
+   border-radius: 2rem;
+}
+.AddQuestionTag ul li i{
+    margin-left: 2rem;
+ }
+ .AddQuestionTag ul li i:hover{
+    cursor: pointer;
+ }

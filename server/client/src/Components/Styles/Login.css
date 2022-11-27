@@ -1,0 +1,67 @@
+.Login{
+    width: 100vw;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.LoginDiv{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    background-color: #1d1e26;
+    border-radius: 10px;
+}
+.LoginDiv h1{
+    color:#ff79c6;
+    font-size: 3rem;
+    text-decoration: underline;
+    margin-bottom: 5rem;
+}
+.LoginDiv label{
+ color: white;
+ font-size: 1.6rem;
+ align-self: flex-start;
+ margin-bottom: 0.75rem;
+}
+.LoginDiv input{
+    color: black;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    border: none;
+    width: 100%;
+    height: 3rem;
+    padding: 0.3rem;
+    margin-bottom: 1rem;
+    outline: none;
+}
+.LoginDiv button{
+    font-size: 1.2rem;
+    padding: 0.7rem 3rem;
+    background-color: #50fa7b;
+    outline: none;
+    border: none;
+    border-radius: 0.7rem;
+    font-weight: bold;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    margin-top: 4rem;
+}
+.LoginDiv button:hover{
+    background-color:#36a552;
+    color: white;
+    cursor:pointer;
+}
+.LoginDiv p{
+    align-self: flex-end;
+    color:#8be9fd;
+    text-decoration: underline;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+@media screen and (max-width: 400px) {
+    .LoginDiv{
+        width: 70%;
+    }
+}

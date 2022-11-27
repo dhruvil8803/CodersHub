@@ -1,0 +1,84 @@
+.SideNavbar{
+    width: 20vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.SideNavbar ul{
+    list-style-type: none;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    width: 100%;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    opacity: 1;
+}
+.SideNavbar .nav{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    display: none;
+}
+.SideNavbar .spanItem{
+    position: absolute;
+    width: 40px;
+    height: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.SideNavbar .spanItem span{
+    width: 100%;
+    height: 0px;
+    border-bottom: 3px solid white;
+    border-radius: 1rem;
+    transition: transform 1s ease, opacity 1s ease;
+}
+.SideNavbar .nav input[type=checkbox]{
+    width: 40px;
+    height: 32px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    cursor: pointer;
+    z-index: 200;
+    opacity: 0;
+}
+.SideNavbar ul li{
+    margin: 1rem 1rem;
+    padding: 1rem;
+    transition: background-color 0.5s ease;
+    border-radius: 10px;
+  
+}
+.SideNavbar ul li:hover{
+    cursor: pointer;
+     background-color: #1d1e26;
+}
+@media screen and (max-width: 400px) {
+    *,html{
+        font-size: 32.25%;
+    }
+    .SideNavbar{
+        width: 100vw;
+        margin-top: 2rem;
+    }
+     .SideNavbar .nav{
+        display: block;
+     }
+     .SideNavbar ul{
+        opacity: 0;
+         transform: translateY(-200%);
+         display: flex;
+         flex-direction:  column;
+         align-items: center;
+     }
+  }

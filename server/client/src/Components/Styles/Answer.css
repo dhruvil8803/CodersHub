@@ -1,0 +1,49 @@
+.AnswerDetailed{
+    width: 100%;
+    border-bottom: 0.5px solid white;
+}
+.Answer{
+    width: 100%;
+    display: flex;
+}
+
+.Answer .AnswerStats{
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Answer .AnswerStats i{
+ font-size: 6rem;
+ color: #50fa7b;
+}
+.Answer .AnswerStats p{
+ font-size: 2rem;
+ color: white;
+}
+.Answer .AnswerDetails{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 2.5rem;
+    width: 90%;
+}
+.AnswerAdded{
+    display: flex;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+.AnswerAdded p{
+    font-size: 1.5rem;
+    color: white;
+    margin-left: 2rem;
+}
+
+.AnswerAdded p span{
+    font-size: 1.5rem;
+    color: #8be9fd;
+}

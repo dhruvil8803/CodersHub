@@ -1,0 +1,15 @@
+
+.SpinnerDiv{
+    width: 40px;
+    height: 40px;
+    /* transform: translate(-50%, -50%); */
+    border-radius: 50%;
+    animation: Spinner 1s linear infinite;
+    border-top: 0.5rem solid #ff79c6;
+    border-left: 0.5rem solid transparent;
+}
+@keyframes Spinner{
+    100%{
+      transform: rotate(-360deg);
+    }
+}

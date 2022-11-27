@@ -1,0 +1,54 @@
+.AddAnswer{
+    display: flex;
+    width: 100vw;
+}
+.AddAnswerDetail{
+    border-left: 1px solid white;
+    width: 80vw;
+    padding: 2rem;
+    color: white;
+}
+.AddAnswerMarkDown, .AddAnswerReview{
+    width: 100%;
+    background-color: #1d1e26;
+    padding: 2rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+.AddAnswerMarkDown h1, .AddAnswerReview h1{
+    font-size: 3rem;
+    color: #ff79c6;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+.AddAnswerMarkDown p, .AddAnswerReview p{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.AddAnswerMarkDown textarea{
+    background-color: #282a36;
+    padding: 0.5rem;
+    color: white;
+    outline: none;
+    width: 100%;
+    font-size: 1.6rem;
+    border: none;
+}
+
+.AddAnswerDetail button{
+    font-size: 1.2rem;
+    padding: 0.7rem 3rem;
+    background-color: #50fa7b;
+    outline: none;
+    border: none;
+    border-radius: 0.7rem;
+    font-weight: bold;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    margin-left: 1rem;
+}
+.AddAnswerDetail button:hover{
+    background-color:#36a552;
+    color: white;
+    cursor:pointer;
+}
+

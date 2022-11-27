@@ -1,0 +1,45 @@
+.Home{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("./HomeImage.jpg");
+			height:90vh;
+			width: 100%;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size:cover; 
+			position: relative;
+}
+.HomeDetail{
+           position: absolute;
+			top:50%;
+			left:50%;
+			transform: translate(-50%, -50%);
+			background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+            color: white;
+            display: flex;
+            flex-direction: column;
+            padding: 2rem;
+            text-align: center;
+            align-items: center;
+}
+.HomeDetail h1{
+  font-size: 5rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+.HomeDetail p{
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+  }
+  .HomeDetail button{
+    font-size: 2rem;
+    padding: 0.5rem 2rem;
+    display: inline-block;
+    width: 30%;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+    transition: 1s background-color ease;
+  }
+  .HomeDetail button:hover{
+    background-color: rgb(172, 167, 167);
+    cursor: pointer;
+  }
